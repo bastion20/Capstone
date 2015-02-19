@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/museumatrium"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Floors" >
+
+    <ImageView
+        android:id="@+id/homeLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:minHeight="150dp"
+        android:minWidth="200dp"
+        android:src="@drawable/iuam_logo3" />
+
+    <ImageView
+        android:id="@+id/infoButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp"
+        android:src="@drawable/info"
+        android:onClick="goToInfo" />
+    
+        <Button
+        android:id="@+id/historyButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/history"
+        android:textSize="8dp"
+        android:onClick="goToHistory"
+        android:textColor="@color/midnight" />
+
+    <Button
+        android:id="@+id/exploreButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:alpha=".70"
+        android:background="@color/white"
+        android:onClick="goToFloors"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/explore"
+        android:textColor="@color/midnight"
+        android:textSize="24dp" />
+ 
+</RelativeLayout>

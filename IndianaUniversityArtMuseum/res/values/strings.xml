@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Indiana University Art Museum</string>
+    <string name="explore">Explore</string>
+    <string name="action_settings">Settings</string>
+
+    
+    <!--  History -->
+    <string name="history">History</string>
+    <string name="titleEarlyHistory">Early History</string>
+    <string name="earlyHistory">This is where the history shall go.</string>
+    <string name="titleRecentHistory">Recent History</string>
+    <string name="recentHistoryDescription">Recent History goes here.</string>
+    <string name="titleImportantCollections">Important Collections</string>
+    <string name="importantCollectionDescription">By 1978, when a grassy football practice field was broken ceremonially for its new building, the Indiana University Art Museum was already well on its way to assembling a collection that would rival the best of any university art museum in the country. Situation strategically at the heart of the Bloomington campus, the dramatic new building – designed by the internationally renowned firm of I. M. Pei and Partners and dedicated in 1982 – embodied Indiana University’s commitment to teaching and learning from original works of art.Herman B. Wells (1902 to 2000) revered president and chancellor of Indiana University for more than sixty years, first envisioned the university as the “cultural crossroads of Indiana,” with an art museum at its core. After diligent consideration of university art museum precedents, Wells and a handful of faculty advisors determined that the museum’s collection would encompass the full spectrum of humankind’s activities in the visual arts “from antiquity to contemporary, from west to east,” as Henry Hope (1905 to 1989) IU’s art department chair stated - and that it should support the whole constellation of teaching and scholarship offered on the Bloomington campus.</string>
+
+    <!--  Colors -->
+    <color name="crimson">#7D110C</color>
+    <color name="white">#ffffff</color>
+    <color name="cream">#E1D8B7</color>
+    <color name="midnight">#44697D</color>
+    
+	<!--  ActionBar Titles -->
+    <string name="title_activity_info">Information</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_floors">Floors</string>
+
+</resources>
